@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "name": "large rstudio custom env",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "environment",
+    "rov": {
+      "mode": 0
+    },
+    "created_at": "2021-04-24T07:26:39Z",
+    "created": 1619249199642,
+    "asset_id": "environment.largerstudiocustomenv",
+    "asset_attributes": [
+      "environment"
+    ]
+  },
+  "entity": {
+    "environment": {
+      "sub_type": "rstudio",
+      "display_name": "large rstudio custom env",
+      "hardware_specification": {
+        "type": "referenced",
+        "guid": "hardware_specification.largerstudiocustomenv"
+      },
+      "software_specification": {
+        "type": "referenced",
+        "guid": "0e6e79df-875e-4f24-8ae9-62dcc2148306"
+      },
+      "tools_specification": {
+        "supported_kernels": [
+          {
+            "name": "R",
+            "language": "R",
+            "version": "3.6",
+            "display_name": "R 3.6"
+          }
+        ]
+      },
+      "runtime_definition": "45b69e8f-e2af-45da-ad5f-244249faa843"
+    }
+  },
+  "attachments": []
+}
