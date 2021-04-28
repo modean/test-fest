@@ -9,7 +9,7 @@
 
 library(shiny)
 
-# Test
+# Test 2
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
